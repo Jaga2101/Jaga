@@ -6,56 +6,48 @@
 }
 @media screen and (max-width:485px) {
     body{
-        background: linear-gradient(60deg,#e41616,#3cc5e0);
+        background: black;
+        margin-left:10px;
+        margin-right:10px;
      }
      .box1{
-        background: transparent;
-        margin-right: 10px;
-        width: 400px;
+        width: 350px;
         height: 1000px;
         background: linear-gradient(60deg,#e41616,#3cc5e0); 
-        position: fixed;
+        position: absolute;
         padding-bottom: 0;
     }
     .box2{
-        background: transparent;
-        margin-right: 10px;
-        width: 400px;
+        width: 350px;
         height: 1000px;
         background: linear-gradient(60deg,#a0e9f7,#0fdcb3,#a0e9f7,#0fdcb3); 
-        position: fixed;
+        position: absolute;
         padding-bottom: 0;
     }
     .box3{
-        background: transparent;
-        margin-right: 10px;
-        width: 400px;
+        width: 350px;
         height: 1000px;
         background: linear-gradient(60deg,#ec0ab0,#0895dc);
-        position: fixed;
+        position: absolute;
         padding-bottom: 0;
     }
     .box4{
-        background: transparent;
-        margin-right: 10px;
-        width: 400px;
+        width: 350px;
         height: 1000px;
         background: linear-gradient(80deg,#5b5be7,#5fd89b); 
-        position: fixed;
+        position: absolute;
         padding-bottom: 0;
     }
     .box5{
-        background: transparent;
-        margin-right: 10px;
-        width: 400px;
+        width: 350px;
         height: 1000px;
         background: linear-gradient(60deg,#df33b1,#e0741c,#5be0e7);
-        position: fixed;
+        position: absolute;
         padding-bottom: 0;
     }
     .boximg{
-    width: 320px;
-    height: 430px;
+    width: 300px;
+    height: 400px;
     border-radius: 20px;
     }
     .arr{
