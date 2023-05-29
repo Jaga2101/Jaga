@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(239, 234, 234);
+    /*box-sizing: border-box;*/
+}
+@media screen and (max-width:485px) {
+    body{
+        background: linear-gradient(60deg,#e41616,#3cc5e0);
+     }
+     .box1{
+        background: transparent;
+        margin-right: 10px;
+        width: 400px;
+        height: 1000px;
+        background: linear-gradient(60deg,#e41616,#3cc5e0); 
+        position: fixed;
+        padding-bottom: 0;
+    }
+    .box2{
+        background: transparent;
+        margin-right: 10px;
+        width: 400px;
+        height: 1000px;
+        background: linear-gradient(60deg,#a0e9f7,#0fdcb3,#a0e9f7,#0fdcb3); 
+        position: fixed;
+        padding-bottom: 0;
+    }
+    .box3{
+        background: transparent;
+        margin-right: 10px;
+        width: 400px;
+        height: 1000px;
+        background: linear-gradient(60deg,#ec0ab0,#0895dc);
+        position: fixed;
+        padding-bottom: 0;
+    }
+    .box4{
+        background: transparent;
+        margin-right: 10px;
+        width: 400px;
+        height: 1000px;
+        background: linear-gradient(80deg,#5b5be7,#5fd89b); 
+        position: fixed;
+        padding-bottom: 0;
+    }
+    .box5{
+        background: transparent;
+        margin-right: 10px;
+        width: 400px;
+        height: 1000px;
+        background: linear-gradient(60deg,#df33b1,#e0741c,#5be0e7);
+        position: fixed;
+        padding-bottom: 0;
+    }
+    .boximg{
+    width: 320px;
+    height: 430px;
+    border-radius: 20px;
+    }
+    .arr{
+        background: transparent;
+        width: 80px;
+        height: 8px;
+        color: rgb(233, 224, 224);
+        font-size: 50px;
+        padding-bottom: 35px;
+        padding-top: 5px;
+        border-radius: 50px;
+        float: left;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .arr:hover{
+        color: none;
+    }
+    span{
+        background: transparent;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    h1{
+        background: transparent;
+        padding-top: 20px;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .demo{
+        width: 280px;
+        height: 50px;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 20px 40px;
+        text-transform: uppercase;
+    }
+    .demo a{
+        background: transparent;
+        text-decoration: none;
+        color: black;
+    }
+
+}
